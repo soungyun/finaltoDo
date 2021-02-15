@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo 콘테스트</title>
+    <link rel="stylesheet" href="index.css"/>
+    <meta charset="utf-8">
+    </style>
+</head>
+<body>
+    <span class="js-weather"></span>
+    
+     <a target="_blank" href="https://www.naver.com/" title="Naver" >
+        <input id= "naver" type="image" src="naver.jpg" align="right"/>
+    </a><br><br>
+    <a target="_blank" href="https://www.youtube.com/" title="Youtube" >
+        <input id= "youtube" type="image" src="youtube.jpg" align="right" />
+    </a><br><br>
+    <a target="_blank" href="https://www.facebook.com/" title="Facebook" >
+        <input id= "facebook" type="image" src="facebook.png" align="right" />
+    </a><br><br>
+    <a target="_blank" href="https://nomadcoders.co/" title="nomadcoders" >
+        <input id= "nomad" type="image" src="nomad.png" align="right" />
+    </a><br><br>
+    <a target="_blank" href="https://google.com/" title="Google" >
+        <input id= "google" type="image" src="google.png" align="right" />
+    </a>
+    <div class="js-clock">
+        <h1>00:00:00</h1>
+    </div>
+    <div class="js-date" >
+        <h2>0000년 00월 00일</h2>
+    </div>
+    <form class="js-form form">
+        <input type="text" placeholder="Write your name" class="name-input"/>
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" class="toDo-input"/>
+    </form>
+    <ul class="js-toDoList">
+    </ul>
+   
+    <script src="clock.js"></script>
+    <script id="greeting" src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="date.js"></script>
+</body>
+</html>
