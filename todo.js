@@ -22,9 +22,6 @@ function saveToDos(){
 }
 
 function paintToDo(text) {
-    if(text = ""){
-        alert("할 일을 입력해주세요.");
-    }
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
